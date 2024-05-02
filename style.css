@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Micro+5+Charted&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&family=Micro+5+Charted&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+    /* font-family:  "Montserrat", sans-serif;
+    font-family: "Fraunces", serif; */
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.container{
+    width: 576px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.left{
+    height: 21rem;
+    width: 18rem;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.desktop{
+    height: 21rem;
+    width: 18rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    display: flex;
+    flex: 1;
+}
+
+.mobile{
+    display: none;
+}
+
+.right{
+    height: 21rem;
+    width: 18rem;
+    background-color: hsl(0, 0%, 100%);
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+}
+
+h4, p, h5{
+    color: hsl(228, 12%, 48%);
+    font-family: "montserrat", sans-serif;
+}
+
+h4{
+    letter-spacing: 0.2rem;
+    font-size: 11px;
+}
+
+.price1{
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", sans-serif;
+}
+
+h5 {
+    padding-top: 0.4rem;
+}
+
+.price{
+    display: flex;
+    gap: 1rem;
+}
+
+button{
+    height: 3rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: hsl(158, 36%, 37%);
+}
+
+.cart{
+    color: hsl(0, 0%, 100%);
+}
